@@ -7,11 +7,11 @@ export default {
 <template>
   <main>
 
-    
+
   </main>
 </template>
 
 
-<style>
+<style long="scss" scoped>
 
 </style>
