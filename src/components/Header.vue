@@ -39,7 +39,7 @@ export default {
     align-items: center;
     background-color:white;
     height: 120px;
-    margin-top: 40px;
+    margin-top: 30px;
         img{
         width: 80px;
         };
