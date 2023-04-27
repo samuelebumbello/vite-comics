@@ -17,36 +17,38 @@ export default {
 
 <template>
   <div class="footer-top">
-    <ul>
-      <li>
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="">
-        DIGITAL COMICS
-      </li>
-    </ul>
-    <ul>
-      <li>
-        <img src="../assets/img/buy-comics-merchandise.png" alt="">
-        DIGITAL COMICS
-      </li>
-    </ul>
-    <ul>
-      <li>
-        <img src="../assets/img/buy-comics-subscriptions.png" alt="">
-        DIGITAL COMICS
-      </li>
-    </ul>
-    <ul>
-      <li>
-        <img src="../assets/img/buy-comics-shop-locator.png" alt="">
-        DIGITAL COMICS
-      </li>
-    </ul>
-    <ul>
-      <li>
-        <img src="../assets/img/buy-dc-power-visa.svg" alt="">
-        DIGITAL COMICS
-      </li>
-    </ul>
+
+      <ul>
+        <li>
+          <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+          <span>DIGITAL COMICS</span>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <img src="../assets/img/buy-comics-merchandise.png" alt="">
+          <span>DIGITAL COMICS</span>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <img src="../assets/img/buy-comics-subscriptions.png" alt="">
+          <span>DIGITAL COMICS</span>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <img src="../assets/img/buy-comics-shop-locator.png" alt="">
+          <span>DIGITAL COMICS</span>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <img class="img-svg" src="../assets/img/buy-dc-power-visa.svg" alt="">
+          <span>DIGITAL COMICS</span>
+        </li>
+      </ul>
+
 
 </div>
   <footer>
@@ -152,21 +154,30 @@ footer{
 .footer-top{
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 150px;
   background-color: #0282F9;
-  overflow: hidden;
     img{
-      width: 50px;
+      margin-right: 15px;
     }
 }
 
 .footer-top ul li{
+  display: flex;
+  align-items: center;
   list-style: none;
+    span{
+      vertical-align: middle;
+      color: white;
+    }
+    img{
+      height: 50px;
+      &.img-svg{
+        width: 60px;
+      }
+    }
 }
 
-.footer-left-menu{
-  display: flex;
-}
 .footer-bottom{
   display: flex;
   align-items: center;

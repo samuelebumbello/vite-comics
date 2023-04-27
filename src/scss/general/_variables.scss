@@ -10,7 +10,7 @@ $primary-color: #0C7CEC;
             text-align: center;
 
             a{
-                color: black;
+                color: grey;
                 text-decoration: none;
                 font-size: 12px;
                 font-weight: bold;
@@ -19,3 +19,34 @@ $primary-color: #0C7CEC;
         }
     }
 }
+
+.footer-left-menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    h4{
+        color: white;
+        margin-bottom: 10px;
+    }
+    ul{
+        padding: 0;
+        li{
+            list-style: none;
+        
+            a{
+                text-decoration: none;
+                font-size: 12px;
+                line-height: 1.3rem;
+                color: grey;
+            }
+        }
+    }
+    .dc-me{
+        margin-right: 30px;
+    }
+
+    .dc-mt{
+        margin-top: 17px;
+    }
+  }
+  
